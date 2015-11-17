@@ -1,3 +1,2 @@
 # Divify
-Reconstructs images into a bunch of litle divs.
-
+Turn images into a bunch of little divs
