@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    .tiny-div {
+      height: 2px;
+      width: 2px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  {% if divs %}
+    {{ divs|safe }}
+  {% else %}
+    <h1>:(</h1>
+  {% endif %}
+</body>
+</html>
