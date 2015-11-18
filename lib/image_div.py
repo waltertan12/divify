@@ -14,7 +14,7 @@ class ImageDiv:
         color = pixels[x, y]
         divs += "<div class='tiny-div' "
         divs += "style='background-color: "
-        divs += "rgb({0}, {1}, {2})'".format(color[0], color[1], color[2])
+        divs += "rgb({0}, {1}, {2})'>".format(color[0], color[1], color[2])
         divs += "</div>"
     divs += "</div>"
     return divs
