@@ -9,7 +9,8 @@ def index():
 
 @app.route('/div')
 def div():
-  image = ImageDiv("./image/tvq7ts.jpg")
+  # image = ImageDiv("./image/tvq7ts.jpg")
+  image = ImageDiv("./image/oie_saMPlhKarFif.jpg")
   d = image.divify()
   return render_template("divs.html", divs=d)
 
